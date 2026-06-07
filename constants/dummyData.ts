@@ -100,6 +100,40 @@ export const preferredVendors: Vendor[] = [
   },
 ];
 
+export interface FeaturedPublication {
+  name: string;
+  quote: string;
+  context: string;
+}
+
+export const featuredPublications: FeaturedPublication[] = [
+  {
+    name: "Vogue Weddings",
+    quote: "An estate that redefines understated grandeur.",
+    context: "The Editor's List",
+  },
+  {
+    name: "Martha Stewart Weddings",
+    quote: "A masterclass in quiet, considered celebration.",
+    context: "Venues of the Year",
+  },
+  {
+    name: "Brides",
+    quote: "Among the most coveted addresses in the valley.",
+    context: "Best of the West",
+  },
+  {
+    name: "WeddingWire",
+    quote: "A flawless, unhurried experience from first light.",
+    context: "Couples' Choice",
+  },
+  {
+    name: "The Knot",
+    quote: "Where heritage and beauty are held in perfect balance.",
+    context: "Hall of Fame",
+  },
+];
+
 export const galleryImages: GalleryImage[] = [
   {
     id: "g-01",
